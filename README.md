@@ -10,7 +10,11 @@ Welcome to GameBot, your automated assistant for managing.
 
 ### how to run
 
-- git clone
+- git clone https://github.com/akilower/tsubasa.git
+- cd  tsubasa
+- nano data.txt
+- npm install
+- node  tsubasa.js
 
 
 
