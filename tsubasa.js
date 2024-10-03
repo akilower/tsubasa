@@ -444,7 +444,9 @@ class Tsubasa {
             for (let i = 0; i < data.length; i++) {
                 const initData = data[i];
                 const firstName = JSON.parse(decodeURIComponent(initData.split('user=')[1].split('&')[0])).first_name;
-                
+                console.log('\x1b[35m%s\x1b[0m', 'MY TELEGRAM');
+                console.log('\x1b[35m%s\x1b[0m', 'MY TELEGRAM');
+
                 this.log(`========== Account ${i + 1} | ${firstName} ==========`, 'custom');
 
                 const axiosInstance = axios.create({
